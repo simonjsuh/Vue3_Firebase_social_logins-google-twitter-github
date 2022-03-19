@@ -1,4 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import firebaseConfig from './firebaseConfig.js';
 
-createApp(App).mount('#app')
+firebaseConfig
+
+const app = createApp(App);
+app.mount('#app')
